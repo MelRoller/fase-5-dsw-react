@@ -22,7 +22,7 @@ function App() {
       </p>
       <div className="card">
         <button type="button">
-          <a href="../Web/principal.html">Inicio</a>
+          <a href="Web/principal.html">Inicio</a>
         </button>        
       </div>
       <p className="read-the-docs">
