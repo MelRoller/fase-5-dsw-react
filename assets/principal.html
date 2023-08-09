@@ -24,7 +24,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="principal.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,55 +57,45 @@
             <div><img src="img/img1.png"></div>
         </header>
         
-        <main class="content">             
-            <article class="article"> 
-                <h1 id="resultado"></h1>
-    <div>
-        <form name="formulario">
-            <h3>1. ¿Cuál es el propósito principal de CSS Grid?</h3>
+        <main class="content">
+            <article class="article">
+              <h1>SECCIÓN PRINCIPAL</h1>                                
+            </article>
+                  
+            <article class="article">
+                <h1>SELECTORES CSS</h1>
+                <p>Los selectores CSS son patrones que se utilizan para seleccionar y aplicar estilos a elementos específicos en un documento HTML. Los selectores permiten apuntar a elementos individuales, grupos de elementos o elementos con características específicas dentro de una página web.</p> 
+                <div><img src="img/reglas css.jpg" alt=""> </div>                  
+            </article>
+            <article class="article" onclick="window.location.href = 'tema.html';">
+                <h1>CSS GRID</h1>
+                <p>CSS Grid es un sistema de diseño bidimensional que permite crear diseños de páginas web complejos y flexibles. Con CSS Grid, puedes dividir el espacio de una página en filas y columnas, creando una cuadrícula en la que puedes colocar y posicionar elementos de manera precisa.</p> 
+                <div><img src="img/CSS-GRID-3.png" alt=""> </div>                              
+            </article>
 
-            <input type="radio" name="r1" value="a"> a. Crear diseños bidimensionales (en filas y columnas) de manera más eficiente. <br>
-            <input type="radio" name="r1" value="b"> b. Aplicar estilos a elementos HTML. <br>
-            <input type="radio" name="r1" value="c"> c. Animar elementos en la página web. <br>
+            <article class="article">
+                <h1>BOX MODEL</h1>
+                <p>El modelo de caja (Box Model en inglés) es un concepto utilizado en desarrollo web para describir cómo se estructura y representa visualmente un elemento HTML en una página. El modelo de caja se compone de cuatro elementos principales: el contenido, el relleno (padding), el borde (border) y el margen (margin).</p>    
+                <div><img src="img/box model.png" alt=""> </div>                 
+            </article>
 
-            <h3>2. ¿Cómo se define un contenedor como grid en CSS?</h3>
-
-            <input type="radio" name="r2" value="a"> a. Con la propiedad display: grid;
-            <br>
-            <input type="radio" name="r2" value="b"> b. Utilizando la etiqueta &lt;grid&gt<br>
-            <input type="radio" name="r2" value="c"> c. Agregando la clase .grid-container <br>
-
-            <h3>3. ¿Cuál es la función de la propiedad grid-template-columns en CSS Grid?</h3>
-
-            <input type="radio" name="r3" value="a"> a. Establecer el ancho de las filas del grid.
-            <br>
-            <input type="radio" name="r3" value="b"> b. Definir el número de columnas que tendrá el grid.<br>
-            <input type="radio" name="r3" value="c"> c. Establecer el grosor del borde del grid.<br>
-
-            <h3>4. ¿Qué elemento HTML se utiliza para organizar los elementos hijos dentro del grid?</h3>
-
-            <input type="radio" name="r4" value="a"> a. &lt;grid-item&gt;<br>
-            <input type="radio" name="r4" value="b"> b. &lt;grid-element&gt;<br>
-            <input type="radio" name="r4" value="c"> c. &lt;div&gt;<br>
-
-            <h3>5. ¿Cuál de las siguientes propiedades de CSS se utiliza para colocar elementos dentro del grid?</h3>
-
-            <input type="radio" name="r5" value="a"> a. grid-column<br>
-            <input type="radio" name="r5" value="b"> b. align-items<br>
-            <input type="radio" name="r5" value="c"> c. margin<br>
-
-            <input type="button" value=" Enviar" onclick="procesarRespuestas()">
-        </form>
-    </div>
-    <script src="js/script.js"></script>                
-            </article>                 
+            <article class="article">
+                <h1>MEDIA QUERIES</h1>
+                <p>Las Media Queries son una característica del lenguaje CSS (Cascading Style Sheets) que permite aplicar estilos diferentes a un documento HTML en función de ciertas características del dispositivo en el que se está visualizando, como el tamaño de la pantalla, la resolución, la orientación, entre otros.</p>
+                <div><img src="img/media-query-css.webp" alt=""> </div>                   
+            </article>
+            <article class="article">
+                <h1>FLEX BOX</h1>
+                <p>Flexbox es una tecnología de diseño de CSS que permite crear diseños flexibles y dinámicos en el diseño de páginas web. Se basa en un sistema de cajas flexibles que se organizan en un contenedor principal y se distribuyen automáticamente en el espacio disponible.</p>       
+                <div><img src="img/flex box.png" alt=""> </div>            
+            </article>
             
         </main>
 
         <aside class="sidebar">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'principal.html';">Inicio</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'index.html';">Inicio</button>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-primary" type="button" onclick="window.location.href = 'audios.html';">Audios</button>
@@ -122,7 +112,7 @@
             <h4>© Web Design</h4>
             <p>Todos los derechos reservados | Última actualización: 2023</p>
         </footer>
+
     </div>
 </body>
-
 </html>
