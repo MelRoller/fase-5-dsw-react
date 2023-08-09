@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Design</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>       
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Temas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tema.html">CSS grid</a></li>
+                  <li><a class="dropdown-item" href="#">Box model</a></li>
+                  <li><a class="dropdown-item" href="#">Media queries</a></li>
+                  <li><a class="dropdown-item" href="#">Flex Box</a></li>
+                  <li><a class="dropdown-item" href="#">Selectores CSS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="audios.html">Audios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="equipo.html">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Cuestionario</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <header class="header">
+          <div><img src="img/img1.png"></div>
+        </header>
+        
+        <main class="content">
+            <article class="article">
+                <h1>NOSOTROS</h1>
+                <h2>Acerca de</h2>
+                <br>
+                <p>Web Design es una empresa especializada en el desarrollo web. Contamos con un amplio portafolio de servicios relacionados con el diseño y la creación de sitios web a medida.</p>
+                <br>
+                <p>Debido al crecimiento de la demanda en el último año, estamos expandiendo nuestro equipo de diseñadores web. Valoramos el trabajo en equipo y la colaboración, por lo que estamos brindando la oportunidad a nuestro talentoso grupo de trabajo colaborativo para formar parte de nuestra empresa.</p>
+                <br>
+                <p>Buscamos profesionales con habilidades sólidas en diseño web y una pasión por la creación de experiencias digitales impactantes. Queremos que demuestres tu experiencia y talento en diseño web a través del desarrollo de un sitio web basado en un diseño One Page.</p>
+                <br>
+                <p>En Web Design, nos comprometemos a ofrecer soluciones creativas y personalizadas para nuestros clientes. Nuestro enfoque se basa en la implementación de tecnologías modernas y prácticas recomendadas en el campo del diseño web.</p>
+                <br>
+                <p>Si eres un apasionado del diseño web y te gustaría formar parte de nuestro equipo, te invitamos a mostrar tus habilidades y presentar tu propio sitio web siguiendo los requerimientos establecidos.</p>
+                            
+            </article>           
+        </main>
+
+        <aside class="sidebar">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'principal.html';">Inicio</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'audios.html';">Audios</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'nosotros.html';">Nosotros</button> 
+                </li>      
+              </ul>
+              <div class="d-grid gap-1 col-12 mx-auto">                      
+            </div>
+        </aside>     
+
+        <footer class="footer">
+            <h4>© Web Design</h4>
+            <p>Todos los derechos reservados | Última actualización: 2023</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
