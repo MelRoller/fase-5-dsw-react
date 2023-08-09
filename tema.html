@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Design</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>       
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Temas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">CSS grid</a></li>
+                  <li><a class="dropdown-item" href="#">Box model</a></li>
+                  <li><a class="dropdown-item" href="#">Media queries</a></li>
+                  <li><a class="dropdown-item" href="#">Flex Box</a></li>
+                  <li><a class="dropdown-item" href="#">Selectores CSS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="audios.html">Audios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="equipo.html">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Cuestionario</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <header class="header">
+          <div><img src="img/img1.png"></div>
+        </header>
+        
+        <main class="content">
+            <article class="article">
+                <h1>CSS GRID</h1>
+                <p>CSS Grid es una poderosa herramienta de diseño en CSS que permite crear diseños de páginas web complejos y flexibles. Con CSS Grid, puedes dividir el espacio de la página en filas y columnas, y luego posicionar y organizar los elementos HTML dentro de estas áreas definidas.</p>
+                <div><img src="img/cssgrid.webp" alt=""> </div>
+                <p>La característica principal de CSS Grid es su capacidad para crear diseños bidimensionales. Puedes establecer tanto el tamaño de las filas y columnas como la posición de los elementos en función de una cuadrícula definida. Esto proporciona un mayor control sobre la disposición de los elementos en comparación con los métodos de diseño más antiguos, como el uso de float o posicionamiento absoluto.</p>
+                <div><img src="img/template-column-rows-02.svg" alt=""> </div>
+                <p>CSS Grid utiliza una sintaxis sencilla y declarativa que se basa en la definición de un contenedor principal y la especificación de áreas o líneas en la cuadrícula. Puedes crear áreas nombradas para organizar los elementos, lo que facilita la manipulación y el reordenamiento del diseño según sea necesario.</p>
+                <div><img src="img/dddgrid-template-areas.svg" alt=""> </div>
+                <p>Una de las ventajas de CSS Grid es su capacidad para crear diseños responsivos y adaptables. Puedes definir tamaños de fila y columna flexibles utilizando unidades relativas, como porcentajes o fracciones, lo que permite que el diseño se ajuste automáticamente según el tamaño de la pantalla o el dispositivo.</p>
+                <div><img src="img/maxresdefault.jpg" alt=""> </div>
+                <p>Además, CSS Grid ofrece una amplia gama de propiedades y funciones que permiten el control detallado del diseño. Puedes establecer el espaciado entre filas y columnas, alinear y distribuir elementos en la cuadrícula, superponer elementos y mucho más. Esto proporciona una gran flexibilidad y creatividad en el diseño de interfaces de usuario.</p>                
+                                             
+            </article>            
+        </main>
+
+        <aside class="sidebar">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'index.html';">Inicio</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'audios.html';">Audios</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary" type="button" onclick="window.location.href = 'nosotros.html';">Nosotros</button> 
+                </li>      
+              </ul>
+              <div class="d-grid gap-1 col-12 mx-auto">                      
+            </div>
+        </aside>     
+
+        <footer class="footer">
+            <h4>© Web Design</h4>
+            <p>Todos los derechos reservados | Última actualización: 2023</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
